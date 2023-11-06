@@ -76,3 +76,14 @@
 .ex-7-img:hover{
     filter: sepia(0.8) blur(5px); 
 }
+
+/*
+    8th exercise
+*/
+.ex-8-img{
+    transition: filter 2s, border-radius 5s;
+}
+.ex-8-img:hover{
+    filter: sepia(0.8) blur(5px); 
+    border-radius: 25px;
+}

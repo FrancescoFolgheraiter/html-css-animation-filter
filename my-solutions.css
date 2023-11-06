@@ -87,3 +87,16 @@
     filter: sepia(0.8) blur(5px); 
     border-radius: 25px;
 }
+
+/*
+    9th exercise
+*/
+.ex-9-img{
+    transition: filter 2s, border-radius 5s, transform 2s;
+}
+
+.ex-9-img:hover{
+    filter: sepia(0.8) brightness(0.8); 
+    border-radius: 25px;
+    transform: scale(0.5);
+}

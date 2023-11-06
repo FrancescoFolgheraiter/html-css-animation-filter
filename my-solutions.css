@@ -141,3 +141,43 @@
         transform: rotate(0deg);
     }
 }
+
+
+/*
+    12th exercise
+*/
+.ex-12-button:hover> .ex-12-top-white{
+    animation-name: move-top;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+@keyframes move-top{
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(90% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover> .ex-12-bottom-white{
+    animation-name: move-bot;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+@keyframes move-bot{
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(80% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}

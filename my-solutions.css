@@ -20,3 +20,13 @@
 .ex-2-square:active{
     width:100%;
 }
+
+/*
+    3rd exercise
+*/
+.ex-3-square{
+    transition:border-radius 3s; 
+}
+.ex-3-square:hover{
+    border-radius:50%;
+}

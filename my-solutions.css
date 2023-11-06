@@ -57,3 +57,13 @@
     width:40px;
     height: 40px; 
 }
+
+/*
+    6th exercise
+*/
+.ex-6-img{
+    transition: filter 2s;
+}
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
